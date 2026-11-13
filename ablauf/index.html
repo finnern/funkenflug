@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Funkenflug — So läuft die Zündung · Neun Streiche</title>
+<meta name="description" content="Von der ersten Skizze bis zum ersten Funken: die neun Streiche, mit denen Funkenflug in einem Unternehmen startet — erst die Führung, dann die ganze Belegschaft.">
+<meta property="og:title" content="Funkenflug — So läuft die Zündung">
+<meta property="og:description" content="Neun Streiche, erst die Führung, dann die ganze Belegschaft. Was passiert, was bei euch bleibt.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://funkenflug.ai/ablauf/">
+<link rel="canonical" href="https://funkenflug.ai/ablauf/">
+<meta property="og:locale" content="de_DE">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+<meta property="og:image" content="https://funkenflug.ai/mark-michael.jpg">
+<style>
+  :root{
+    --ink:#2B2318; --paper:#FFFFFF; --rule:#8D7B5A; --accent:#A93A21; --muted:#5B4E3B; --blau:#3E6E9E;
+    --serif:"Vollkorn",Georgia,serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:19px;line-height:1.55}
+  a{color:var(--blau)}
+  header.top{padding:18px 20px;border-bottom:1px solid var(--rule);display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px}
+  header.top a.home{color:var(--ink);text-decoration:none;font-weight:600;letter-spacing:.02em}
+  header.top span{color:var(--muted);font-size:15px}
+  main{max-width:720px;margin:0 auto;padding:40px 20px 80px}
+  h1{font-size:clamp(34px,6vw,52px);line-height:1.08;font-weight:600;margin:.2em 0 .3em;letter-spacing:-.01em}
+  h1 em{font-style:italic;color:var(--accent)}
+  h2{font-size:clamp(24px,3.6vw,30px);line-height:1.2;margin:1.6em 0 .5em;font-weight:600}
+  h3{font-size:21px;margin:0 0 .25em;font-weight:600}
+  p{margin:0 0 1em}
+  .kicker{color:var(--muted);text-transform:uppercase;letter-spacing:.14em;font-size:13px;margin-bottom:.6em}
+  .orn{text-align:center;color:var(--rule);font-size:28px;margin:48px 0 24px;letter-spacing:.3em}
+  .card{background:#F5F2EC;border:1px solid var(--rule);border-radius:4px;padding:18px 20px;font-size:17px}
+  .card h3{font-size:19px}
+  .card p{margin:0}
+  .grid{display:grid;gap:18px;margin:1.2em 0}
+  @media(min-width:640px){.grid.two{grid-template-columns:1fr 1fr}}
+  ul.plain{list-style:none;padding:0;margin:.4em 0 1em}
+  ul.plain li{padding-left:1.4em;position:relative;margin:.45em 0}
+  ul.plain li::before{content:"–";position:absolute;left:.2em;color:var(--accent)}
+  ol.steps{list-style:none;padding:0;margin:1.2em 0 0}
+  ol.steps li{display:grid;grid-template-columns:52px 1fr;gap:0 16px;padding:18px 0;border-top:1px solid var(--rule)}
+  ol.steps li:last-child{border-bottom:1px solid var(--rule)}
+  ol.steps .num{font-size:34px;line-height:1;font-weight:600;color:var(--accent);font-style:italic;text-align:right;padding-top:2px}
+  ol.steps p{margin:0 0 .4em;font-size:18px}
+  ol.steps p.streich{font-size:12px;margin:0 0 .2em}
+  ol.steps p.vers{font-size:17px;margin:.7em 0 0}
+  ol.steps .stays{font-size:16px;color:var(--muted);margin:0}
+  ol.steps .stays strong{color:var(--ink);font-weight:600}
+  .streich{color:var(--muted);text-transform:uppercase;letter-spacing:.14em;font-size:12px;margin:0 0 .2em}
+  .vers{font-style:italic;white-space:pre-line;color:var(--accent);font-size:17px;margin:.7em 0 0}
+  .result{border-left:3px solid var(--accent);padding:4px 0 4px 1.2em;margin:1.6em 0;font-size:20px}
+  .cta{display:inline-block;background:var(--ink);color:var(--paper);text-decoration:none;padding:14px 26px;border-radius:4px;font-size:18px;font-weight:600;margin:.4em .6em .4em 0}
+  .cta.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
+  .cta:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+  .note{font-size:15px;color:var(--muted)}
+  footer{border-top:1px solid var(--rule);padding:28px 20px;font-size:15px;color:var(--muted);text-align:center}
+  footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <a class="home" href="/">← Funkenflug</a>
+  <span>So läuft die Zündung</span>
+</header>
+
+<main>
+
+  <p class="kicker">Funkenflug · Die Zündung in neun Streichen</p>
+  <h1>Von der ersten Skizze bis zum ersten Funken — <em>erst die Führung, dann alle.</em></h1>
+
+  <p>Die Zündung ist der Start von Funkenflug in eurem Haus. Am Ende hängt ein Kompass an der Wand, den eure Leute mitgeschrieben haben, zwei Zündmeister tragen ihn weiter, und der erste Funke liegt im Postfach. In der Regel dauert das sechs bis acht Wochen.</p>
+
+  <p>Max und Moritz brauchten sieben Streiche, und es ging bekanntlich schlecht aus. Wir brauchen neun — und bei uns geht es gut aus.</p>
+
+  <p>Wir gehen bewusst in zwei Etappen vor. Zuerst muss die Führung wissen, worauf sie sich einlässt, und den Rahmen tragen. Erst dann kommt die ganze Belegschaft dazu — nicht als Publikum, sondern als Mitautoren.</p>
+
+  <div class="orn">❦</div>
+
+  <h2>Vorwort — bevor ihr euch entscheidet</h2>
+
+  <ol class="steps">
+    <li>
+      <div class="num">0</div>
+      <div>
+        <p class="streich">Vorwort</p>
+        <h3>Euer Kompass-Entwurf aus öffentlichen Daten</h3>
+        <p>Wir lesen, was über euer Haus öffentlich zu finden ist, und bauen daraus einen ersten Kompass und einen Muster-Funken. Dann setzen wir uns zu dritt zusammen. Erst wenn ihr gesehen habt, wie das für euch aussieht, reden wir über Konditionen.</p>
+        <p class="stays"><strong>Bleibt bei euch:</strong> der Kompass-Entwurf — auch wenn ihr euch dagegen entscheidet.</p>
+        <p class="vers">Noch bevor ihr unterschreibt,
+seht ihr, was am Ende bleibt.</p>
+      </div>
+    </li>
+  </ol>
+
+  <h2>Erster bis vierter Streich — die Führung</h2>
+
+  <ol class="steps">
+    <li>
+      <div class="num">1</div>
+      <div>
+        <p class="streich">Erster Streich</p>
+        <h3>Fünf Fragen an die Geschäftsführung</h3>
+        <p>Wir schicken fünf Fragen, die wir schon mit unseren Vermutungen ausgefüllt haben. Wo wir richtig liegen, reicht ein „passt“. Wo nicht, ein Satz Korrektur. Fünf Minuten.</p>
+        <p class="stays"><strong>Bleibt bei euch:</strong> ein Entwurf, der zu eurem Haus passt statt zu irgendeinem.</p>
+        <p class="vers">Dieses war der erste Streich,
+doch der zweite folgt sogleich.</p>
+      </div>
+    </li>
+    <li>
+      <div class="num">2</div>
+      <div>
+        <p class="streich">Zweiter Streich</p>
+        <h3>KI-Grundlagen für die Führungsrunde</h3>
+        <p>60 bis 90 Minuten: was KI heute kann, wo sie danebenliegt, wo eure Grenzen und Pflichten verlaufen. Keine Rechtsbelehrung, sondern genug Überblick, um die eigenen Leute führen zu können.</p>
+        <p class="stays"><strong>Bleibt bei euch:</strong> eine Führungsrunde auf gleichem Stand — dokumentiert.</p>
+        <p class="vers">Wer vorangeht, muss verstehn,
+wohin all die andern gehn.</p>
+      </div>
+    </li>
+    <li>
+      <div class="num">3</div>
+      <div>
+        <p class="streich">Dritter Streich</p>
+        <h3>Führungs-Kick-off</h3>
+        <p>Eine Stunde am Kompass-Entwurf. Jede Führungskraft bringt ein, was fehlt oder nicht stimmt. Wir arbeiten die Änderungen ein und halten fest, von wem sie kamen.</p>
+        <p class="stays"><strong>Bleibt bei euch:</strong> ein Kompass, den die Führung trägt, mit Änderungsprotokoll.</p>
+        <p class="vers">Jede streicht und schreibt hinein —
+erst dann kann es eurer sein.</p>
+      </div>
+    </li>
+    <li>
+      <div class="num">4</div>
+      <div>
+        <p class="streich">Vierter Streich</p>
+        <h3>Das Zündmeister-Duo benennen</h3>
+        <p>Zwei Leute aus eurem Team teilen sich die Rolle: einer, der Menschen mitnimmt, einer, der die Werkzeuge kennt. Wir helfen bei der Auswahl.</p>
+        <p class="stays"><strong>Bleibt bei euch:</strong> zwei feste Ansprechpartner im Haus, je etwa zwei Stunden im Monat.</p>
+        <p class="vers">Zwei, die sich die Sache teilen,
+müssen nicht alleine eilen.</p>
+      </div>
+    </li>
+  </ol>
+
+  <h2>Fünfter bis neunter Streich — die ganze Belegschaft</h2>
+
+  <ol class="steps">
+    <li>
+      <div class="num">5</div>
+      <div>
+        <p class="streich">Fünfter Streich</p>
+        <h3>Puls-Check</h3>
+        <p>Eine anonyme Befragung an alle, fünf Fragen: Wo steht ihr mit KI, was erhofft ihr euch, was hält euch zurück? Wir werten aus und zeigen euch das Bild.</p>
+        <p class="stays"><strong>Bleibt bei euch:</strong> ein Ergebnisbericht — und der Vergleichswert für in drei Monaten.</p>
+        <p class="vers">Ohne Namen, frei heraus,
+spricht sich manches leichter aus.</p>
+      </div>
+    </li>
+    <li>
+      <div class="num">6</div>
+      <div>
+        <p class="streich">Sechster Streich</p>
+        <h3>Der Kompass aus beidem</h3>
+        <p>Die Stimmen der Belegschaft gehen in den Kompass ein. Aus dem Entwurf der Führung wird ein Text, in dem sich alle wiederfinden.</p>
+        <p class="stays"><strong>Bleibt bei euch:</strong> der Aushang (zwei Seiten für die Wand), eine Lesehilfe und das Begleitdokument „Wer hat was bewegt“.</p>
+        <p class="vers">Was von oben, was von unten,
+wird zu einem Text gebunden.</p>
+      </div>
+    </li>
+    <li>
+      <div class="num">7</div>
+      <div>
+        <p class="streich">Siebter Streich</p>
+        <h3>Zündmeister-Onboarding</h3>
+        <p>Zwei Sitzungen mit eurem Duo. Wir richten den Rückkanal ein, über den Ideen und Fragen aus dem Haus zurückkommen, und legen den Funken-Pool an.</p>
+        <p class="stays"><strong>Bleibt bei euch:</strong> ein eingearbeitetes Duo und drei Wege für Rückmeldungen: Antwort auf den Funken, anonyme Seite, direkt an die Zündmeister.</p>
+        <p class="vers">Zweimal üben, einmal fragen —
+dann kann man die Fackel tragen.</p>
+      </div>
+    </li>
+    <li>
+      <div class="num">8</div>
+      <div>
+        <p class="streich">Achter Streich</p>
+        <h3>Kick-off mit allen</h3>
+        <p>Nach einer Generalprobe kommt die Belegschaft zusammen, 60 bis 75 Minuten. Nicht wir stellen Funkenflug vor, sondern eure Zündmeister.</p>
+        <p class="stays"><strong>Bleibt bei euch:</strong> euer Kompass in der ersten gültigen Fassung.</p>
+        <p class="vers">Nicht wir stehen vorn im Saal —
+eure Leute, dieses Mal.</p>
+      </div>
+    </li>
+    <li>
+      <div class="num">9</div>
+      <div>
+        <p class="streich">Neunter Streich</p>
+        <h3>Der erste Funke</h3>
+        <p>Am Montag danach liegt er im Postfach: drei, vier Anwendungen, die zu eurer Arbeit passen, jede mit dem Grundsatz aus eurem Kompass, der dazugehört.</p>
+        <p class="stays"><strong>Bleibt bei euch:</strong> Ausgabe 1 — und ab jetzt jeden Monat eine neue.</p>
+        <p class="vers">Montag früh im Postfach liegt,
+was von nun an monatlich fliegt.</p>
+      </div>
+    </li>
+  </ol>
+
+  <p class="result"><strong>Im Vorbeiflug erledigt:</strong> Mit diesen neun Streichen habt ihr eure Maßnahmen zur KI-Kompetenz nach Artikel 4 der EU-KI-Verordnung dokumentiert. Ohne Pflichtschulung, die alle absitzen.</p>
+
+  <p class="vers" style="margin-left:1.2em">Und Artikel vier? Nun ja —
+der ist nebenbei schon da.</p>
+
+  <!-- BELEG AUS DEM PILOTEN: erst einsetzen, wenn Michael Pfaff die Geschichte freigegeben hat.
+  <div class="card" style="margin:1.6em 0">
+    <h3>Was neun Tage nach dem Kick-off passiert ist</h3>
+    <p>[Kurzfassung: Eine Mitarbeiterin setzt selbst eine KI-Schulung auf, andere wollen mit — und als der Termin ausfällt, sind sie enttäuscht statt erleichtert.]</p>
+  </div>
+  -->
+
+  <div class="orn">❦</div>
+
+  <h2>Und kein Schluss — Monat für Monat</h2>
+
+  <ul class="plain">
+    <li>Jeden Monat ein neuer Funke, versandfertig für eure Zündmeister</li>
+    <li>Begleitung des Duos: was zündet, was nicht, was kommt aus dem Haus zurück</li>
+    <li>Alle drei Monate ein neuer Puls-Check und eine Überarbeitung des Kompasses</li>
+    <li>Einmal im Jahr setzen wir uns zusammen und justieren nach</li>
+  </ul>
+
+  <div class="grid two">
+    <div class="card">
+      <h3>Kleine Betriebe</h3>
+      <p>Bei zehn bis zwanzig Leuten sitzt die Führung ohnehin mit am Tisch. Dann legen wir Führungs-Kick-off und Kick-off mit allen in einen Termin — gleiche Streiche, kürzerer Weg.</p>
+    </div>
+    <div class="card">
+      <h3>Was wir von euch brauchen</h3>
+      <p>Jemanden aus der Geschäftsführung im Raum, zwei Zündmeister, einen Termin für alle — und ehrliche Rückmeldung, was funktioniert und was nicht.</p>
+    </div>
+  </div>
+
+  <p>Die Konditionen besprechen wir im Gespräch zu dritt, nachdem ihr euren Kompass-Entwurf gesehen habt. Sie richten sich nach der Größe eures Hauses.</p>
+
+  <div class="orn">❦</div>
+
+  <h2>Mit dem Vorwort anfangen?</h2>
+
+  <p>Kurze Mail, zwei Minuten. Wir melden uns innerhalb von zwei Werktagen mit einem Vorschlag für einen ersten Blick auf euren Kompass.</p>
+
+  <p>
+    <a class="cta" href="mailto:mark@finnern.com?subject=Funkenflug%3A%20Kompass-Entwurf%20f%C3%BCr%20uns&body=Name%3A%0AUnternehmen%3A%0ARolle%3A%0AMitarbeiterzahl%3A%0A%0AWo%20steht%20KI%20bei%20uns%20heute%3A%0A">Kompass-Entwurf anfragen →</a>
+    <a class="cta ghost" href="/">Zurück zur Übersicht</a>
+  </p>
+
+</main>
+
+<footer>
+  Funkenflug · ein Angebot von Finnern Innovation Consulting · Schramberg, Schwarzwald<br>
+  <a href="https://finnern.com/impressum.html">Impressum</a> · <a href="https://finnern.com/datenschutz.html">Datenschutz</a> · <a href="https://finnern.com/">finnern.com</a>
+</footer>
+
+</body>
+</html>
